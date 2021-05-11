@@ -1,8 +1,8 @@
 // Main style file
 
 // Slick Carousel
-@import "/vendor/slick-carousel/slick.scss";
-@import "/vendor/slick-carousel/slick-theme.scss";
+@import "../vendor/slick-carousel/slick.scss";
+@import "../vendor/slick-carousel/slick-theme.scss";
 
 // Fonts
 @import "include/fonts";
@@ -17,6 +17,6 @@
 @import "include/footer";
 
 body {
-  background: url("site-background.png") no-repeat;
+  background: url("/assets/site-background.png") no-repeat;
   background-size: cover;
 }

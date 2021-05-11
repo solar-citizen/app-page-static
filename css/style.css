@@ -616,6 +616,6 @@ body a {
 }
 
 body {
-  background: url("/assets/site_background.png") no-repeat;
+  background: url("/assets/site-background.png") no-repeat;
   background-size: cover;
 }
