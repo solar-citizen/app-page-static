@@ -347,8 +347,8 @@ body a {
 }
 
 .banner {
-  background: url("/assets/backgroundimg1.jpg") no-repeat;
-  background-size: cover;
+  background: #903ae5 url("/assets/backgroundimg1.jpg") no-repeat;
+  backround-size: cover;
 }
 .banner .space {
   display: flex;
@@ -554,7 +554,7 @@ body a {
 }
 
 .footer {
-  background: url("/assets/backgroundimg2.jpg") 0 99% no-repeat;
+  background: #f8f9fa url("/assets/backgroundimg2.jpg") 0 99% no-repeat;
   background-size: cover;
   padding: 3rem 0;
 }
