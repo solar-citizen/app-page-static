@@ -1,0 +1,22 @@
+// Main style file
+
+// Slick Carousel
+@import "/vendor/slick-carousel/slick.scss";
+@import "/vendor/slick-carousel/slick-theme.scss";
+
+// Fonts
+@import "include/fonts";
+
+// Templates
+@import "include/variables";
+@import "include/global";
+@import "include/header";
+@import "include/banner";
+@import "include/tech";
+@import "include/security";
+@import "include/footer";
+
+body {
+  background: url("/assets/site_background.png") no-repeat;
+  background-size: cover;
+}

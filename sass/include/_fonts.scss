@@ -1,0 +1,12 @@
+// Fonts
+
+// Google Fonts
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Nunito&display=swap");
+
+// Slick font family
+@font-face {
+  font-family: "Slick";
+  src: url("/node_modules/slick-carousel/slick/fonts/slick.ttf")
+    format("truetype");
+  src: url("/node_modules/slick-carousel/slick/fonts/slick.woff") format("woff");
+}

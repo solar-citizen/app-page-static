@@ -1,0 +1,35 @@
+// SECURITY template
+
+.security {
+  background: $dark;
+
+  .title {
+    h6 {
+      a {
+        &:hover {
+          color: #838e98 !important;
+        }
+      }
+    }
+  }
+
+  .slider {
+    .slick-prev,
+    .slick-next {
+      font-family: $inter;
+      font-size: 0.75rem;
+    }
+
+    .slick-prev {
+      &::before {
+        content: "";
+      }
+    }
+
+    .slick-next {
+      &::before {
+        content: "";
+      }
+    }
+  }
+}

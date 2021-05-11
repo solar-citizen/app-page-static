@@ -1,0 +1,115 @@
+// TECH template
+
+.tech,
+.security,
+.favourite {
+  padding: 3rem 0;
+
+  .title {
+    h6 {
+      a {
+        &:hover {
+          color: #555d63 !important;
+        }
+      }
+    }
+  }
+
+  .slider {
+    &__item {
+      padding: 0 1rem;
+      &-title {
+        > a {
+          color: $dark;
+        }
+
+        > .d-flex {
+          align-items: center;
+          > img {
+            width: 1.9rem;
+            margin-right: 0.5rem;
+          }
+
+          > a,
+          i,
+          span {
+            padding: 0 0.2rem;
+            font-size: 0.9rem;
+
+            @media screen and (max-width: 1199px) {
+              padding: 0 0.1rem;
+              font-size: 0.8rem;
+            }
+          }
+
+          > a {
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+
+    .slick-prev,
+    .slick-next {
+      background: rgba(105, 48, 195, 1);
+      color: $light;
+      top: 103%;
+      z-index: 999;
+      padding: 15px 45px;
+      border-radius: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      @media screen and (max-width: 1199px) {
+        padding: 15px 38px;
+      }
+
+      &:hover {
+        background: rgba(105, 48, 195, 0.75);
+
+        &::before {
+          opacity: 1;
+        }
+      }
+
+      &::before {
+        font-family: $inter;
+      }
+    }
+
+    .slick-prev {
+      left: 550px;
+
+      @media screen and (max-width: 1399px) {
+        left: 460px;
+      }
+
+      @media screen and (max-width: 1199px) {
+        left: 384px;
+      }
+
+      &::before {
+        content: "<";
+      }
+    }
+
+    .slick-next {
+      right: 550px;
+
+      @media screen and (max-width: 1399px) {
+        right: 460px;
+      }
+
+      @media screen and (max-width: 1199px) {
+        right: 384px;
+      }
+
+      &::before {
+        content: ">";
+      }
+    }
+  }
+}

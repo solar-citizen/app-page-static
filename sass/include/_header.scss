@@ -1,0 +1,64 @@
+// HEADER template
+
+body {
+  font-family: $inter;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.header {
+  .top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+
+  .navbar {
+    .collapse {
+      .nav-item {
+        padding: 0 0.4rem;
+
+        > a {
+          color: white;
+
+          &:hover {
+            color: $dark;
+          }
+        }
+
+        .btn {
+          color: white;
+
+          &:hover {
+            color: $dark;
+          }
+
+          @media screen and (max-width: 991px) {
+            margin: 0.5rem 0;
+          }
+        }
+        /* for alternative nav start
+      .nav-social {
+        @media screen and (max-width: 992px) {
+          flex-direction: row;
+          justify-content: center;
+          font-size: calc(100% * 1.5);
+
+          &__nav-item {
+            padding: 0.2rem 0.6rem;
+          }
+        }
+      }
+      for alternative nav /end */
+      }
+    }
+
+    @media screen and (max-width: 992px) {
+      background: $purple;
+    }
+  }
+}

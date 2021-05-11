@@ -1,0 +1,83 @@
+// FOOTER template
+
+.footer {
+  background: url("/assets/backgroundimg2.jpg") 0 99% no-repeat;
+  background-size: cover;
+  padding: 3rem 0;
+
+  .row {
+    @media screen and (max-width: 1180px) {
+      justify-content: space-between;
+    }
+
+    @media screen and (max-width: 768px) {
+      text-align: center;
+    }
+  }
+
+  .social {
+    @media screen and (max-width: 768px) {
+      justify-content: center;
+    }
+    > a {
+      &:hover {
+        color: $purple !important;
+      }
+    }
+  }
+
+  .company {
+    .d-flex {
+      > a {
+        color: $dark;
+        margin: 0.3rem 0;
+
+        &:hover {
+          color: $purple;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .newsletter {
+    padding: 2.5rem 2rem;
+
+    .d-flex {
+      .form-control {
+        width: 12.5rem;
+        margin: 0.8rem 0;
+        background: $light;
+        border-radius: 4rem;
+
+        &::placeholder {
+          font-size: 0.8rem;
+          padding: 0 1rem;
+        }
+      }
+    }
+
+    .btn {
+      padding: 0.3rem 1.5rem;
+      border-radius: 4rem;
+      font-size: 0.8rem;
+
+      &:hover {
+        background: $purple !important;
+      }
+    }
+  }
+
+  .copyrights {
+    p {
+      color: $dark;
+
+      > a {
+        color: $purple;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
