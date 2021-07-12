@@ -1,8 +1,8 @@
 // BANNER template
 
 .banner {
-  background: #903ae5 url("/assets/backgroundimg1.jpg") no-repeat;
-  backround-size: cover;
+  background: url("/assets/backgroundimg1.jpg") no-repeat;
+  background-size: cover;
 
   .space {
     display: flex;

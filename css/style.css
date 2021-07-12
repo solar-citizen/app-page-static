@@ -309,19 +309,6 @@ body a {
 }
 .header .navbar .collapse .nav-item {
   padding: 0 0.4rem;
-  /* for alternative nav start
-  .nav-social {
-    @media screen and (max-width: 992px) {
-      flex-direction: row;
-      justify-content: center;
-      font-size: calc(100% * 1.5);
-
-      &__nav-item {
-        padding: 0.2rem 0.6rem;
-      }
-    }
-  }
-  for alternative nav /end */
 }
 .header .navbar .collapse .nav-item > a {
   color: white;
@@ -347,8 +334,8 @@ body a {
 }
 
 .banner {
-  background: #903ae5 url("/assets/backgroundimg1.jpg") no-repeat;
-  backround-size: cover;
+  background: url("/assets/backgroundimg1.jpg") no-repeat;
+  background-size: cover;
 }
 .banner .space {
   display: flex;
@@ -554,7 +541,7 @@ body a {
 }
 
 .footer {
-  background: #f8f9fa url("/assets/backgroundimg2.jpg") 0 99% no-repeat;
+  background: url("/assets/backgroundimg2.jpg") 0 99% no-repeat;
   background-size: cover;
   padding: 3rem 0;
 }
